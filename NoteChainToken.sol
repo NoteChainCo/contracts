@@ -296,7 +296,7 @@ contract NoteChainToken is StandardToken {
   uint256 public constant INITIAL_SUPPLY = 20000000000 * 10**decimals;
 
   /**
-   * @dev Contructor that gives msg.sender all of existing tokens.
+   * @dev Contructor that sends tokens to all these 4 addresses
    */
   constructor() public {
     totalSupply = INITIAL_SUPPLY;
